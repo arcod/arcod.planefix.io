@@ -1,0 +1,147 @@
+body{
+	font-family:Georgia, serif;
+	color:black;
+	font-size:18px;
+}
+
+body {
+  -webkit-user-select: none;
+     -moz-user-select: -moz-none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* frame laws I WANT TO CENTER THIS - there seems to be an issue centering a variable size div.*/ 
+
+.frame {
+	white-space: nowrap;
+	font-size:0px;
+
+}
+
+#topButtonRow{
+	white-space: nowrap;
+}
+
+#bottomButtonRow{
+	white-space: nowrap;
+}
+
+
+#leftButtonColumn{
+	display:inline-block;
+}
+
+/* container laws */
+
+.container {
+	width:80px;
+	text-align:center;
+	display:inline-block;
+	padding:2px;
+	font-size:0px;
+}
+
+.btnRowContainer {
+	height:80px;
+	width:80px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+	padding:2px;
+}
+
+.btncontainer {
+	height:80px;
+	width:25px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+	padding:2px;
+}
+
+
+
+.buttonRow{
+	padding-left:25px;
+	height:35px;
+	text-align:center;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+
+#bottomButtonRow{
+
+}
+
+svg{
+height:70px;
+width:60px;
+}
+
+.left{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.right{
+	float:right;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+.down{
+	height:30px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/* cell laws */
+
+.cell {
+	width:80px;
+	height:80px;
+	background:gray;
+	line-height: 80px;
+ 	text-align: center;
+	color:white;
+	font-size:18px;
+}
+
+
+.cell span {
+      display: inline-block;
+      vertical-align: middle;
+    
+      line-height: normal;
+    }
+    
+#cell1 {
+	background:green;
+}
+#cell2 {
+	background:blue;
+}
+#cell3 {
+	background:red;
+}
+#cell4 {
+	background:green;
+}
+#cell5 {
+	background:blue;
+}
+#cell6 {
+	background:red;
+}
+#cell7 {
+	background:green;
+}
+#cell8 {
+	background:blue;
+}
+#cell9 {
+	background:red;
+}
